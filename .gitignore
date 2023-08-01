@@ -1,5 +1,3 @@
-
-
 # Compiled class file
 *.class
 
@@ -22,5 +20,7 @@ mdName.dll
 mdName.dll.hash
 libmdName.so
 libmdName.so.hash
+mdName_JavaCode.zip
+mdName_JavaCode.zip.hash
 
 
