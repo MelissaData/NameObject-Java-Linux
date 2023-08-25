@@ -48,7 +48,6 @@ public class mdNameJNI {
 	public final static native String GetStatusCode(long I);
 	public final static native String GetErrorCode(long I);
 	public final static native String GetChangeCode(long I);
-	public final static native String GetDebugInfo(long I,String p1);
 	public final static native String GetResults(long I);
 	public final static native String GetResultCodeDescription(long I,String p1,int opt);
 	public final static native String GetPrefix(long I);

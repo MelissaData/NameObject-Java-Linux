@@ -394,10 +394,6 @@ public final static class ResultCdDescOpt {
 		return mdNameJNI.GetChangeCode(I);
 	}
 
-	public String GetDebugInfo(String p1) {
-		return mdNameJNI.GetDebugInfo(I,p1);
-	}
-
 	public String GetResults() {
 		return mdNameJNI.GetResults(I);
 	}
