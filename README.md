@@ -7,6 +7,8 @@ Please feel free to copy or embed this code to your own project. Happy coding!
 
 For the latest Melissa Name Object release notes, please visit: https://releasenotes.melissa.com/on-premise-api/name-object/
 
+For further details, please visit: https://docs.melissa.com/on-premise-api/name-object/name-object-quickstart.html
+
 The console will ask the user for:
 
 - Name (First Name + Last Name)
@@ -24,7 +26,7 @@ And return
 
 ## Tested Environments
 - Linux 64-bit Java 19.0.2, Ubuntu 20.04.05 LTS
-- Melissa data files for 2024-02
+- Melissa data files for 2024-03
 
 ## Required Files and Programs
 
@@ -129,10 +131,11 @@ Melissa Updater is a CLI application allowing the user to update their Melissa a
 
 #### Different ways to get data file(s)
 1.  Using Melissa Updater
-	- It will handle all of the data download/path and dll(s) for you. 
-2.  If you already have the latest DQS Release (ZIP), you can find the data file(s) and dll(s) in there
-	- Use the location of where you copied/installed the data and update the "$DataPath" variable in the powershell script.
-	- Copy all the .so files mentioned above into the `MelissaNameObjectLinuxJava` project folder.
+    - It will handle all of the data download/path and dll(s) for you. 
+2.  If you already have the latest DQS release zip, you can find the data file(s) and dll(s) in there
+    - Use the location of where you copied/installed the data and update the "$DataPath" variable in the bash script.
+    - Comment out this line "DownloadDataFiles $license" in the bash script.
+    - This will prevent you from having to redownload all the files.
 	
 #### Change Bash Script Permissions
 To be able to run the bash script, you must first make it an executable using the command:
