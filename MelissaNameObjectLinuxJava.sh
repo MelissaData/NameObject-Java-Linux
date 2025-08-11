@@ -53,7 +53,7 @@ done
 
 
 # ######################### Config ###########################
-RELEASE_VERSION='2025.07'
+RELEASE_VERSION='2025.08'
 ProductName="DQ_NAME_DATA"
 
 # Uses the location of the .sh file 
